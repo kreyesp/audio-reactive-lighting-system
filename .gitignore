@@ -1,0 +1,4 @@
+sim/tests/__pycache__/
+sim_build/
+obj/
+_history/
