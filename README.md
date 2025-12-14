@@ -7,10 +7,12 @@ Real-time **audio → visual** system on FPGA: takes a **48 kHz stereo** audio s
 > **Authorship note (FFT):** the FFT core in this repo was authored by my project partner.  
 > I was responsible for **system architecture + integration**, **clocking**, **I2S RX/TX**, **LED + HDMI pipelines**, and some **verification/bring-up**.
 
+<p align="center">
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/200544b1-62f7-4a51-bd93-6ed44e571ed2" />
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img width="300" height="300" alt="monitor_display" src="https://github.com/user-attachments/assets/fc09bf89-40ea-4b89-b701-1d0e0c1cf3a3" />
-
->Left image shows physical lights, right shows HDMI monitor
+</p>
+<p align="center"><i>Left: LED output. Right: HDMI visualization.</i></p>
 
 ---
 
@@ -32,10 +34,13 @@ Real-time **audio → visual** system on FPGA: takes a **48 kHz stereo** audio s
 ---
 
 ## System Overview
+<p align="center">
+<img width="1601" height="801" alt="image" src="https://github.com/user-attachments/assets/1a56e1da-ceb8-449a-b782-94649add6d7e" />
+</p>
 
 ### Dataflow (high-level)
 1. **I2S RX** captures 48 kHz stereo 24-bit samples into a frame buffer
-2. (Partner-authored) **FFT** produces magnitudes / spectral features
+2. **FFT (partner-authored)** generates magnitudes / spectral features
 3. Spectral features are accumulated into bands (low/mid/high) to drive:
    - **Face expression state machine** (LED panels)
    - **HDMI visualization** (waveform + bars)
