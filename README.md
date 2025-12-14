@@ -7,7 +7,10 @@ Real-time **audio → visual** system on FPGA: takes a **48 kHz stereo** audio s
 > **Authorship note (FFT):** the FFT core in this repo was authored by my project partner.  
 > I was responsible for **system architecture + integration**, **clocking**, **I2S RX/TX**, **LED + HDMI pipelines**, and some **verification/bring-up**.
 
-![preview](preview.png)
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/200544b1-62f7-4a51-bd93-6ed44e571ed2" />
+<img width="300" height="300" alt="monitor_display" src="https://github.com/user-attachments/assets/fc09bf89-40ea-4b89-b701-1d0e0c1cf3a3" />
+
+>Left image shows physical lights, right shows HDMI monitor
 
 ---
 
