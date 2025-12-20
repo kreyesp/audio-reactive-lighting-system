@@ -35,8 +35,9 @@ Real-time **audio → visual** system on FPGA: takes a **48 kHz stereo** audio s
 
 ## System Overview
 <p align="center">
-<img width="1601" height="801" alt="image" src="https://github.com/user-attachments/assets/1a56e1da-ceb8-449a-b782-94649add6d7e" />
+<img width="1567" height="758" alt="image" src="https://github.com/user-attachments/assets/22182085-f722-485b-9b93-4512960e38b0" />
 </p>
+
 
 ### Dataflow (high-level)
 1. **I2S RX** captures 48 kHz stereo 24-bit samples into a frame buffer
