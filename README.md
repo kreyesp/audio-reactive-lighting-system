@@ -4,6 +4,14 @@ Real-time **audio → visual** system on FPGA: takes a **48 kHz stereo** audio s
 - **WS2812B LED panel “face” animations**
 - **HDMI waveform + frequency bars** with user-adjustable thresholds
 
+Video:
+<p align="center">
+  <a href="https://youtu.be/AFDuHhQH8_k">
+    <img src="https://img.youtube.com/vi/AFDuHhQH8_k/0.jpg" alt="Watch the demo" />
+  </a>
+</p>
+
+
 > **Authorship note (FFT):** the FFT core in this repo was authored by my project partner.  
 > I was responsible for **system architecture + integration**, **clocking**, **I2S RX/TX**, **LED + HDMI pipelines**, and some **verification/bring-up**.
 
