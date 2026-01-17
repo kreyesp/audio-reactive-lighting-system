@@ -2,7 +2,7 @@
 
 Real-time **audio → visual** system on FPGA: takes a **48 kHz stereo** audio stream over I2S, passes audio through to DAC, and simultaneously drives:
 - **WS2812B LED panel “face” animations**
-- **HDMI waveform + frequency bars** with user-adjustable thresholds
+- **HDMI waveform + frequency bars** with green user-adjustable thresholds for face selection
 
 Video:
 <p align="center">
