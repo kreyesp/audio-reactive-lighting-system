@@ -1,8 +1,7 @@
 # CAROL — Configurable Audio Reactive Output LEDs (FPGA)
+Overview: CAROL is a real-time audio-reactive lighting system that turns music into a “singing Christmas tree” animation. A 48 kHz stereo audio stream is captured over I2S, passed through to the DAC, and analyzed via FFT magnitudes to drive expressive WS2812B LED face animations. Users can tune per-band thresholds so the tree “sings” responsively across different songs and volume levels.
 
-Real-time **audio → visual** system on FPGA: takes a **48 kHz stereo** audio stream over I2S, passes audio through to DAC, and simultaneously drives:
-- **WS2812B LED panel “face” animations**
-- **HDMI waveform + frequency bars** with green user-adjustable thresholds for face selection
+In parallel, CAROL renders an HDMI debug visualization—a live waveform and frequency bars—with user-adjustable green threshold markers that match the LED expression logic.
 
 Video:
 <p align="center">
